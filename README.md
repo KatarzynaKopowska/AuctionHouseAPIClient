@@ -14,3 +14,4 @@ AuctionHouseScraper is a simple Scraper thats gathering data about prices of ava
 1. Load data about battle pets to PostgreSQL database
 2. Prepare feature to analyze prices on each server and return server name on which you can buy pets in most profitable prices
 3. Tests
+
