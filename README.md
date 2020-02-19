@@ -4,7 +4,7 @@ AuctionHouseAPIClient is a simple API Client thats gathering data about prices o
 
 [Theunderminejournal.com](https://theunderminejournal.com/) is a web page with informations about items and current prices for each World of Warcraft server.
 
-##AuctionHouseApiClient:
+## AuctionHouseApiClient:
 * Collects data about available european servers
 * Checks actual price of battle pets on each server
 * Prints battle pets name with its price
