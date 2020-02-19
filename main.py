@@ -1,4 +1,4 @@
-from ah_api_client import BattlePetsScraperManager
+from auction_house_scraper import BattlePetsScraperManager
 
 
 if __name__ == "__main__":
