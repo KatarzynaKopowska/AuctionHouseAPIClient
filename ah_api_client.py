@@ -35,13 +35,12 @@ class RealmScraper(BaseScraper):
 
 
 class BattlePetScraper(BaseScraper):
-    url = "https://theunderminejournal.com/api/category.php?"
+    url = "https://theunderminejournal.com/api/category.php"
     data_class = BattlePet
 
     def get(self, **kwargs):
         kwargs.update(**{"id": "battlepets"})
-        url = "{}{}={}&{}={}".format(self.url, kwargs, kwargs, kwargs, kwargs)
-        battle_pet_data = requests.get(url, params=kwargs).json().get("results")[0]["data"].get("9")
+        battle_pet_data = requests.get(self.url, params=kwargs).json().get("results")[0]["data"].get("9")
         return battle_pet_data
 
     def parse(self, data):
