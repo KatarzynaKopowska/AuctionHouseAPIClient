@@ -1,7 +1,18 @@
 import requests
 
 
-class RealmScraper:
+class BaseScraper:
+    url = None
+    realm_name_list = None
+
+    def get_realm_information(self):
+        raise NotImplementedError
+
+    def get_realm_names_list(self, realm_information):
+        raise NotImplementedError
+
+
+class RealmScraper(BaseScraper):
     url = "https://theunderminejournal.com/api/realms.php"
     realm_names_list = []
 
