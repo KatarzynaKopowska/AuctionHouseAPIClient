@@ -4,6 +4,8 @@ AuctionHouseScraper is a simple Scraper thats gathering data about prices of ava
 
 [Theunderminejournal.com](https://theunderminejournal.com/) is a web page with information about items and current prices for each World of Warcraft server.
 
+Example data set about battle pets from server "Aegwynn": [click](https://theunderminejournal.com/#eu/aegwynn/category/battlepets)
+
 ### AuctionHouseScraper:
 * Collects data about available european servers from [Theunderminejournal.com](https://theunderminejournal.com/)
 * Checks actual price of battle pets on each server
